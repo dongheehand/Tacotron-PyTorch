@@ -53,8 +53,8 @@ python train.py
 - Furthermore, you can listen to generated wav files during training.
 
 | Loss | wav_files |
-| --- | --- | --- |
-| <img src="png/tensorboard00.png" width="740"> |<img src="png/tensorboard01.png" width="740px"> |
+| --- | --- |
+| <img src="png/tensorboard00.png" width="500"> |<img src="png/tensorboard01.png" width="500px"> |
 
 ```
 tensorboard --logdir=runs
@@ -83,8 +83,8 @@ python eval.py --checkpoint_path ./pre_trained_model_path
 ## Experimental Results
 ### Train loss
 | LJ-Speech | KSS |
-| --- | --- | --- |
-| <img src="png/loss_LJ.png" width="740"> |<img src="png/loss_KSS.png" width="740px"> |
+| --- | --- |
+| <img src="png/loss_LJ.png" width="500"> |<img src="png/loss_KSS.png" width="500px"> |
 
 
 ### TTS wav files
